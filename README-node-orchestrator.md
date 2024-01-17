@@ -18,9 +18,10 @@ Requirements
 Explicit build
 ==============
 
-	sh# ../configure --with-hw-support=gnu-linux-dpdk --with-plugins="node_orchestrator"
+	sh* ../configure --with-hw-support=gnu-linux-dpdk --with-plugins="node_orchestrator"
 	sh# make  
 	sh# make install
 
 `node_orchestrator` plugin can be combined with other plugins, e.g. `rest` or `xmp`.
 
+ 
